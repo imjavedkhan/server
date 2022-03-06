@@ -1,0 +1,14 @@
+
+spring:
+  datasource:
+    password: javedkhan
+    url: jdbc:postgresql://localhost:5432/serverdb
+    username:
+  jpa:
+    hibernate:
+      ddl-auto: create
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.PostgreSQLDialect
+        format-sql: true
+    show-sql: true
